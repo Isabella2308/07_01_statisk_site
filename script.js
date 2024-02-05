@@ -33,7 +33,9 @@ function showProduct(productJSON) {
     // productClone.querySelector(
     // ".product_image"
     // ).alt = `Picture of a ${product.name} product`;
+
     productClone.querySelector(".product_name").textContent = product.name;
+    productClone.querySelector(".product_brand").textContent = product.brand;
     productClone.querySelector(".product_price").textContent = product.price;
     productClone.querySelector(".product_discount").textContent =
       product.discount;
