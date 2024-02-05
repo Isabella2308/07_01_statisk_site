@@ -4,36 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produktliste</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="general.css">
+    <title>kategori</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/produktliste.css">
 </head>
 
-<body>
-    <header>
-        <nav class="mainNav">
-            <a href="index.html">
-                <img class="logo" src="img/Skærmbillede 2024-02-02 kl. 21.30.29.png"="logo">
-            </a>
-            <ul class="lister">
-                <li> <a href="produkt.html">Products</a></li>
-                <li> <a href="kategori.html">Categories</a></li>
-                <li> <a href="produktliste.html">Productlist</a></li>
-            </ul>
-        </nav>
-    </header>
-    </header>
-    <main>
-        <div class="knap3">
 
-            <a href="tema4.html">Tema 4</a>
 
-        </div>
 
-    </main>
-    <footer>
 
-    </footer>
+
+<header>
+    <nav class="mainNav">
+        <a href="index.html">
+            <img class="logo" src="img/Skærmbillede 2024-02-02 kl. 21.30.29.png"="logo">
+        </a>
+        <ul class="lister">
+            <li> <a href="produkt.html">Products</a></li>
+            <li> <a href="kategori.html">Categories</a></li>
+            <li> <a href="produktliste.html">Productlist</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <h2>Sports wear</h2>
+    <div class="product_container"></div>
+</section>
+<script src="script.js"></script>
 </body>
 
 </html>
+
+<template class="product_template">
+    <article class="smallProduct soldOut onSale ::before">
+        <span class="sold-out-badge">Sold Out</span>
+        <article class="product_article">
+            <div class="product_image_container">
+                <img class="product_image" src="" alt="taske" />
+            </div>
+            <div class="product">
+                <h3 class="product_name"> Blue T20 Indian Cricket Jersey</h3>
+                <p class="product_brand"> Pants | Pas</p>
+                <p class="product_price"><span>Prev.</span>
+                    "DKK 1595,-"
+                <p class="product_discount">
+                <p>Now DKK 1560,-</p>
+                <p>-34%</p>
+            </div>
+            </div>
+
+
+
+
+        </article>
+    </article>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<main>
+    <!--<article class="product">
+            <a href="produkt.html"><img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
+                    alt="Sahara Team India Fanwear Round Neck Jersey"></a>
+
+            <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+            <p class="subtle">Tshirts | Nike</p>
+            <p class="price">
+                <span>Prev.</span>
+                DKK 1595,-
+            </p>
+            <div class="discounted">
+                <a href="product.html">Read More</a>
+            </div>
+
+        </article>
+        <article class="onSale1">
+
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20">
+
+            <h3>Blue T20 Indian Cricket Jersey</h3>
+            <p class="subtle">Tshirts | Nike</p>
+            <p class="price">
+                <span>Prev.</span>
+                DKK 1595,-
+            </p>
+            <div class="discounted">
+                <p>Now DKK 1560,-</p>
+                <p>-34%</p>
+            </div>
+        </article>
+        <article class="product1 soldOut ::before">
+            <img src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="Blue T20 Indian Cricket Jersey">
+            <span class="sold-out-badge">Sold Out</span>
+            <h3>Blue T20 Indian Cricket Jersey</h3>
+            <p class="subtle">Tshirts | Nike</p>
+            <p class="price"><span>Prev.</span> DKK 1595,-</p>
+            <a href="product.html">Read More</a>
+        </article>-->
+
+    <!--<article class="smallProduct soldOut onSale ::before">
+        <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Blue T20 Indian">
+        <span class="sold-out-badge">Sold Out</span>
+        <h3>Blue T20 Indian Cricket Jersey</h3>
+        <p class="subtle">Tshirts | Nike</p>
+        <p class="price"><span>Prev.</span> DKK 1595,-</p>
+        <div class="discounted">
+            <p>Now DKK 1560,-</p>
+            <p>-34%</p>
+        </div>
+        <a href="product.html">Read More</a>
+    </article>-->
+
+
+</main>
+<footer>
+
+</footer>
+
+
+</body>

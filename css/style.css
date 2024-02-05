@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*kategori*/
+
+.kategori {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.bags {
+  background-color: rgb(195, 186, 180);
+  padding: 3em;
+  border-radius: 5px;
+}
+.pants {
+  background-color: rgb(195, 186, 180);
+  padding: 3em;
+  border-radius: 5px;
+}
+.shoes {
+  background-color: rgb(195, 186, 180);
+  padding: 3em;
+  border-radius: 5px;
+}
+.tshirts {
+  background-color: rgb(195, 186, 180);
+  padding: 3em;
+  border-radius: 5px;
+}
+.hoodies {
+  background-color: rgb(195, 186, 180);
+  padding: 3em;
+  border-radius: 5px;
+}
+.accessories {
+  background-color: rgb(195, 186, 180);
+  padding: 3em;
+  border-radius: 5px;
+}
+.h2_tekst {
+  padding-top: 80px;
+  margin-bottom: 1rem;
+  margin-top: 1em;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: -0.12rem;
+  line-height: 1.2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(76, 76, 82);
+  letter-spacing: 0.1rem;
+}

@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", init);
 
-const productURL = "https://kea-alt-del.dk/t7/api/products?limit=50&start=10";
+const productURL = "https://kea-alt-del.dk/t7/api/products";
 
 let productTemplate;
 let productContainer;
@@ -23,22 +23,15 @@ function init() {
     });
 }
 
-function showProduct(productJSON) {
-  let productClone;
-
-  productJSON.forEach((product) => {
-    console.log("product", product);
-    productClone = document.importNode(productTemplate.content, true);
-    // productClone.querySelector(".product_image").src = product.image_url;
-    // productClone.querySelector(
-    // ".product_image"
-    // ).alt = `Picture of a ${product.name} product`;
-
-    productClone.querySelector(".product_name").textContent = product.name;
-    productClone.querySelector(".product_brand").textContent = product.brand;
-    productClone.querySelector(".product_price").textContent = product.price;
-    productClone.querySelector(".product_discount").textContent =
-      product.discount;
+function showProduct(productsJSON) {
+  console.log("producter", productsJSON);
+  productsJSON.forEach((produkt) => {
+    const productClone = document.importNode(productTemplate.content, true);
+    productClone.querySelector(".product_image").src = `https://kea-alt-del.dk/t7/images/webp/640/${produkt.id}.webp`;
+    productClone.querySelector(".product_name").textContent = produkt.productdisplayname;
+    productClone.querySelector(".product_brand").textContent = produkt.brandname;
+    productClone.querySelector(".product_price").textContent = produkt.price;
+    productClone.querySelector(".product_discount").textContent = produkt.discount;
     productContainer.appendChild(productClone);
   });
 }
