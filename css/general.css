@@ -13,7 +13,9 @@ body {
   margin: calc((100vh / 25) * 1.563) calc((100vw / 25) * 1.563);
   background-color: rgb(253, 253, 253);
 }
-
+.produkt_a {
+  color: rgb(76, 76, 82);
+}
 .span1 {
   display: inline-block;
   transform: scaleX(-1) translateX(-0.2rem);
@@ -70,4 +72,20 @@ li {
 }
 .logo {
   width: 350px;
+}
+
+.foot {
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  color: white;
+  background-color: rgb(189, 175, 166);
+}
+
+.hide {
+  display: none;
+}
+.product_price.line_trough {
+  text-decoration: line-through;
 }

@@ -1,11 +1,12 @@
 window.addEventListener("DOMContentLoaded", init);
 
-const productURL = `https://kea-alt-del.dk/t7/api/products/${id}`;
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
 
 function init() {
   console.log("init");
 
-  fetch(productURL)
+  fetch("https://kea-alt-del.dk/t7/api/products/" + id)
     .then(function (response) {
       return response.json();
     })

@@ -18,8 +18,11 @@ img {
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
+  background-color: rgb(195, 186, 180);
+  padding: 3em;
+  border-radius: 5px;
 }
-.bags {
+/*.bags {
   background-color: rgb(195, 186, 180);
   padding: 3em;
   border-radius: 5px;
@@ -48,7 +51,7 @@ img {
   background-color: rgb(195, 186, 180);
   padding: 3em;
   border-radius: 5px;
-}
+}*/
 .h2_tekst {
   padding-top: 80px;
   margin-bottom: 1rem;

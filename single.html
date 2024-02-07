@@ -4,22 +4,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>single Product</title>
+    <title>Produkt</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/produktliste.css">
+    <link rel="stylesheet" href="css/produkt.css">
+
 </head>
 
 <body>
-    <h1>et produkt</h1>
+    <header>
+        <nav class="mainNav">
+            <a href="index.html">
+                <img class="logo" src="img/Skærmbillede 2024-02-02 kl. 21.30.29.png"="logo">
+            </a>
+            <ul class="lister">
+                <li> <a href="produkt.html">Products</a></li>
+                <li> <a href="kategori.html">Categories</a></li>
+                <li> <a href="produktliste.html">Productlist</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <h2>name</h2>
-        <p>pris</p>
-        <img src="image_url" alt="billede af name">
+
+        <body class="product">
+
+
+            <main>
+                <ul class="breadcrumbs">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="category.html">Brands</a></li>
+                    <li><a href="productlist.html">Nike</a></li>
+                </ul>
+
+
+                <div class="product_image_container">
+                    <img class="product_image" src="" alt="Sahara Team India Fanwear Round Neck Jersey">
+                </div>
+                <section class="purchaseBox">
+                    <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+                    <p>Nike | Tshirts</p>
+                    <form>
+                        <label>Choose a size
+                            <select name="size">
+                                <option>S</option>
+                                <option>M</option>
+                                <option>L</option>
+                                <option>XL</option>
+                            </select>
+                        </label>
+                        <button>Add to basket</button>
+                    </form>
+                </section>
+                <section class="info">
+                    <h2>Product Information</h2>
+                    <dl>
+                        <dt>Model name</dt>
+                        <dd>Sahara Team India Fanwear Round Neck Jersey</dd>
+                        <dt>Color</dt>
+                        <dd>Blue</dd>
+                        <dt>Inventory number</dt>
+                        <dd>1163</dd>
+                    </dl>
+                    <h1>Nike</h1>
+                    <p>Nike, creating experiences for today’s athlete</p>
+                </section>
+                <script src="single.js"></script>
+
+
+            </main>
+
+
+        </body>
+
+
+
+
+
+
 
     </main>
-    <script src="single.js"></script>
+    <footer>
 
+    </footer>
 </body>
 
 </html>

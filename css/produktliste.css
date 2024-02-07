@@ -86,9 +86,6 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
 }
-article.soldOut img {
-  opacity: 0.5;
-}
 
 .product1,
 .onSale {
@@ -105,4 +102,8 @@ article.soldOut img {
   padding: 20px 10px;
   font-size: 14px;
   font-weight: bold;
+}
+.product image,
+.soldOut {
+  opacity: 0.5;
 }
