@@ -13,7 +13,7 @@ img {
 
 .kategori {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1em;
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -21,6 +21,7 @@ img {
   background-color: rgb(195, 186, 180);
   padding: 3em;
   border-radius: 5px;
+  margin-top: 50px;
 }
 /*.bags {
   background-color: rgb(195, 186, 180);
