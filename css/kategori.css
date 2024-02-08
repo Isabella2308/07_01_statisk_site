@@ -11,18 +11,23 @@ img {
 
 /*kategori*/
 
-.kategori {
+.kategori-liste {
+  width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1em;
-  font-size: 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  background-color: rgb(195, 186, 180);
-  padding: 3em;
-  border-radius: 5px;
-  margin-top: 50px;
+  grid-template-columns: repeat(3, 1fr); /* Opretter en grid med automatisk antal kolonner af minimum 200px bredde */
+  margin-top: 100px;
+  margin-right: 1000px;
+  margin-bottom: -80px;
+  gap: 20px;
 }
+
+.kategori-liste li {
+  background-color: rgb(195, 186, 180); /* Baggrundsfarve til hver kategori-boks */
+  padding: 20px; /* Tilføj polstring for at adskille indholdet fra boksens kanter */
+  border-radius: 5px; /* Afrund kanterne på boksen */
+  padding: 2.5em;
+}
+
 /*.bags {
   background-color: rgb(195, 186, 180);
   padding: 3em;
@@ -53,6 +58,7 @@ img {
   padding: 3em;
   border-radius: 5px;
 }*/
+
 .h2_tekst {
   padding-top: 80px;
   margin-bottom: 1rem;

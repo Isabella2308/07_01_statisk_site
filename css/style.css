@@ -11,14 +11,6 @@ img {
 
 /*kategori*/
 
-.kategori {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1em;
-  font-size: 1rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-}
 .bags {
   background-color: rgb(195, 186, 180);
   padding: 3em;

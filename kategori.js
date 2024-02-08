@@ -12,5 +12,5 @@ function showCategory(cat) {
   clone.querySelector("a").textContent = cat.category;
   clone.querySelector("a").href = `produktliste.html?category=${cat.category}`;
 
-  document.querySelector(".kategori ol").appendChild(clone);
+  document.querySelector(".kategori ul").appendChild(clone);
 }

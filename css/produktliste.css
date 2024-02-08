@@ -103,7 +103,30 @@ h3 {
   font-size: 14px;
   font-weight: bold;
 }
-.product image,
-.soldOut {
-  opacity: 0.5;
+
+.product_article {
+  position: relative;
+}
+
+.product_article .sold-out-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.5); /* Juster gennemsigtigheden her */
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.product_article {
+  position: relative;
+}
+
+.product_article .sold-out-badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
 }
